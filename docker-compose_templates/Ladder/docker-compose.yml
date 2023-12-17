@@ -16,7 +16,7 @@ services:
       #- LOG_URLS=true
       #- GODEBUG=netdns=go
     ports:
-      - "8081:8081"
+      - "XXXX:XXXX"
     deploy:
       resources:
         limits:

@@ -1,0 +1,42 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/en/configs/bookmarks
+
+- Developer:
+    - Github:
+        - icon: github-light.png
+          href: https://github.com/ArmeenF
+    - Github - Farzahn:
+        - icon: github-light.png
+          href: https://github.com/farzahn/homelab
+    - Netlify:
+        - icon: netlify.png
+          href: https://app.netlify.com/teams/armeenf/overview
+    - Docker Hub:
+        - icon: docker-moby.png
+          href: https://hub.docker.com/
+
+- WiFi:
+    - WiFiman:
+        - icon: unifi.png
+          href: https://wifiman.com/
+    - PairDrop:
+        - icon: https://raw.githubusercontent.com/schlagmichdoch/PairDrop/master/public/images/android-chrome-512x512.png
+          href: https://pairdrop.net/
+- Misc:
+    - CPU Benchmarks:
+        - icon: mdi-cpu-64-bit
+          href: https://www.cpubenchmark.net/
+    - Composerize:
+        - icon: mdi-currency-usd
+          href: https://www.composerize.com/
+    - Condo:
+        - icon: mdi-home
+          href: https://www.compass.com/listing/20326-bothell-everett-highway-unit-g201-bothell-wa-98012/1424604758643770097/
+    - Reddit Saved:
+        - icon: mdi-reddit
+          href: https://www.reddit.com/user/forcemans11/saved/
+    - Google Photos:
+        - icon: mdi-google
+          href: https://photos.google.com/
+

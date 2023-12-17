@@ -1,0 +1,28 @@
+headerStyle: boxed
+color: zinc
+
+layout:
+  Network:
+    icon: mdi-lan
+    style: row
+    columns: 3
+  Servers:
+    icon: mdi-server
+    style: row
+    columns: 3
+  Utilities:
+    icon: mdi-tools
+    style: row
+    columns: 3
+  Paywall:
+    icon: mdi-wall
+    style: row
+    columns: 2
+  Home Security:
+    icon: mdi-shield-home
+    style: row
+    columns: 1
+  # Bookmarks:
+  #   icon: mdi-bookmark-multiple-outline
+  #   style: row
+  #   columns: 1

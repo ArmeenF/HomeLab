@@ -1,0 +1,29 @@
+---
+- resources:
+    label: System
+    expanded: true
+    cpu: true
+    memory: true
+
+- resources:
+    label: /
+    expanded: true
+    disk: /
+
+- search:
+    provider: google
+    # focus: true
+    target: _blank
+
+- unifi_console:
+    url: https://example.com
+    username: <unifi_username>
+    password: <unifi_user_password>
+
+- datetime:
+    text_size: xl
+    format:
+      dateStyle: short
+      timeStyle: short
+      hour12: true
+
