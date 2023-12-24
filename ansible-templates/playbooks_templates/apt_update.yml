@@ -1,0 +1,7 @@
+- hosts: "all" #enter either "all" or a specify a hostset
+  become: yes
+  tasks:
+  - name: Update all installed packages using APT module
+    apt:
+      update_cache: yes
+      upgrade: 'yes'
