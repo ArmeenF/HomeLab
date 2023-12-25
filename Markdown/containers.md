@@ -19,12 +19,6 @@ I have utilized Docker, a popular containerization platform, to run the followin
 3. [Paperless](https://docs.paperless-ngx.com/): Paperless is a document management system that helps me organize and digitize my paper documents, making them searchable and easily accessible.
  Assistant OS image you downloaded in step 2 as the bootable disk.
 
-5. **Start the Virtual Machine**: Start the virtual machine and follow the on-screen instructions to install Home Assistant OS. Make sure to configure the network settings and any other required parameters during the installation process.
-
-6. **Access Home Assistant**: Once the installation is complete, you can access Home Assistant by opening a web browser and entering the IP address assigned to the virtual machine. Follow the Home Assistant documentation for further configuration and customization.
-
-That's it! You have successfully virtualized Home Assistant OS in a virtual machine. Enjoy exploring the features and capabilities of Home Assistant in your virtualized environment.
-
 4. [Stirling-PDF](https://github.com/Frooodle/Stirling-PDF): Stirling-PDF is a tool that allows me to convert various file formats to PDF. It helps me manage and share documents in a standardized format.
 
 5. [12ft](https://12ft.io/): 12ft is a platform that enables me to deploy and manage my own cloud infrastructure. It provides a scalable and flexible environment for running applications.
