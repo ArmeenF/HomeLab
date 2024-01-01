@@ -14,8 +14,8 @@ The repository is organized into the following sections:
 - [Network](./Markdown/network.md): Describes the network architecture and configuration, including IP addressing, VLANs, and firewall rules.
 - [Virtualization](./Markdown/virtualization.md): Covers the virtualization platforms and technologies used in my homelab, such as VMware ESXi, Proxmox, or Hyper-V.
 - [Containers](./Markdown/containers.md): Discusses the containerization technologies employed, such as Docker or Kubernetes, and provides details on containerized applications and services.
-- [Monitoring](./Markdown/monitoring.md): Explains the monitoring tools and practices used to keep track of the homelab's performance and health.
-- [Backup and Recovery](./Markdown/backup-recovery.md): Outlines the backup and recovery strategies implemented to protect data and ensure business continuity.
+<!-- - [Monitoring](./Markdown/monitoring.md): Explains the monitoring tools and practices used to keep track of the homelab's performance and health.
+- [Backup and Recovery](./Markdown/backup-recovery.md): Outlines the backup and recovery strategies implemented to protect data and ensure business continuity. -->
 
 ## Network Diagram
 
