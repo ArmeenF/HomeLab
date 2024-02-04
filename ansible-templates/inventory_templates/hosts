@@ -1,0 +1,10 @@
+[bare_metal]
+<ip_address>
+<ip_address>
+<ip_address>
+
+[vm]
+<ip_address>
+
+[lxc]
+<ip_address>

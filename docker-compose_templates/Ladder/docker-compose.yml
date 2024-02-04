@@ -1,0 +1,27 @@
+version: '3'
+services:
+  ladder:
+    image: ghcr.io/kubero-dev/ladder:latest
+    container_name: ladder
+    build: .
+    #restart: always
+    restart: unless-stopped
+    #command: sh -c ./ladder
+    environment:
+      - PORT=8081
+      #- PREFORK=true
+      #- X_FORWARDED_FOR=66.249.66.1
+      #- USER_AGENT=Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+      #- USERPASS=foo:bar
+      #- LOG_URLS=true
+      #- GODEBUG=netdns=go
+    ports:
+      - "XXXX:XXXX"
+    deploy:
+      resources:
+        limits:
+          cpus: "0.50"
+          memory: 512M
+        reservations:
+          cpus: "0.25"
+          memory: 128M

@@ -1,0 +1,67 @@
+---
+- Network:
+    - UniFi:
+        icon: unifi-controller.png
+        href: https://example.com
+        description: UniFi Dashboard
+        ping: https://example.com
+        widget:
+            type: unifi
+            url: https://example.com
+            username: <unifi_username>
+            password: <unifi_user_password>
+    - Pi-hole:
+        icon: pi-hole.png
+        href: https://example.com
+        description: Network-level ad and Internet tracker blocking.
+        ping: https://example.com
+        widget:
+            type: pihole
+            url: https://example.com
+            key: key
+
+- Servers:
+    - Proxmox:
+        icon: proxmox.png
+        href: https://example.com
+        description: Hyper-converged infrastructure software.
+        ping: https://example.com
+        widget:
+            type: proxmox
+            url: https://example.com
+            username: api@pam!<proxmox_user>
+            password: <proxmox_user_password>
+
+- Utilities:
+    - Bitwarden:
+        icon: bitwarden.png
+        href: https://example.com
+        description: Password management.
+        ping: https://example.com
+    - Stirling-PDF:
+        icon: stirling-pdf.png
+        href: https://example.com
+        description: PDF manipulation tool
+        ping: https://example.com
+    - Paperless-ngx :
+        icon: paperless-ngx.png
+        href: https://example.com
+        description: Document MGMT system
+        ping: https://example.com
+- Paywall:
+    - 12ft ladder:
+        icon: https://12ft.io/lefthand.svg
+        href: https://example.com
+        description: Bypass any paywall
+        ping: https://example.com
+    - Ladder:
+        icon: https://raw.githubusercontent.com/kubero-dev/ladder/main/assets/pigeon.svg
+        href: https://example.com
+        description: Bypass any paywall
+        ping: https://example.com
+
+- Home Security:
+    - Arlo:
+        icon: https://m.media-amazon.com/images/I/41XXdMD1NwL.png
+        href: https://example.com
+        description: Home Security.

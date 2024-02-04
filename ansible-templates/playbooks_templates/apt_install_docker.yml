@@ -1,0 +1,19 @@
+- name: install latest docker-compose
+  hosts: "all" #enter either "all" or a specify a hostset
+  become: yes
+  tasks:
+    - name: install docker-compose
+      apt:
+        name: docker-compose
+        state: present
+        update_cache: true
+    - name: install docker
+      apt:
+        name: docker
+        state: present
+        update_cache: true
+    - name: install docker.io
+      apt:
+        name: docker.io
+        state: present
+        update_cache: true
