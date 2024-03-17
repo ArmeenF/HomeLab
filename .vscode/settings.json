@@ -4,10 +4,12 @@
         "Armeen",
         "borderwidth",
         "checkmark",
+        "dunder",
         "initialdir",
         "lightgray",
         "padx",
         "pady",
+        "selectmode",
         "tearoff",
         "textvariable"
     ]

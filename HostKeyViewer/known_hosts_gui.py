@@ -20,7 +20,8 @@ from helper import (
     about_dialog,
     documentation_dialog,
     toggle_checkbox,
-    delete_button_action,
+    # delete_button_action,
+    delete_selected_rows,
 )
 
 
@@ -81,7 +82,8 @@ class KnownHostsViewer:
         styled_button = tk.Button(
             bottom_frame,
             text="Delete Selected",
-            command=delete_button_action,
+            # command=delete_button_action,
+            command=lambda: delete_selected_rows(self.tree),
             bg="red",
             highlightthickness=10,
             bd=6,
@@ -94,8 +96,12 @@ class KnownHostsViewer:
 
     def setup_treeview(self):
         self.tree = ttk.Treeview(
-            self.root, columns=("Select", "IP", "Key"), show="headings"
+            self.root,
+            columns=("Select", "IP", "Key"),
+            show="headings",
+            selectmode="extended",
         )
+
         self.tree.heading("#1", text="Select", anchor=tk.W)
         self.tree.heading("IP", text="IP Address", anchor=tk.W)
         self.tree.heading("Key", text="SSH Key", anchor=tk.W)

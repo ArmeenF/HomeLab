@@ -1,6 +1,9 @@
 # pylint: disable=missing-module-docstring
 # pylint: disable=missing-class-docstring
 # pylint: disable=missing-function-docstring
+# pylint: disable=unnecessary-dunder-call
+# pylint: disable=broad-exception-caught
+
 
 """
 Library/Component: HostKeyViewer
@@ -126,6 +129,23 @@ def documentation_dialog(parent):
     close_button.pack(pady=10)
 
 
-def delete_button_action():
-    # Placeholder for the button's functionality
-    print("New Bottom Button Clicked!")
+def delete_selected_rows(tree):
+    selected_items = tree.selection()
+    selected_ips = [tree.item(item, "values")[1] for item in selected_items]
+
+    # First, make a list of all items to delete to avoid any modification issues during iteration
+    items_to_delete = list(selected_items)
+
+    # Remove selected items from GUI
+    for item in items_to_delete:
+        tree.delete(item)
+
+    # Update the known_hosts file
+    known_hosts_path = os.path.expanduser("~/.ssh/known_hosts")
+    with open(known_hosts_path, "r", encoding="utf-8") as file:
+        lines = file.readlines()
+
+    with open(known_hosts_path, "w", encoding="utf-8") as file:
+        for line in lines:
+            if not any(ip in line for ip in selected_ips):
+                file.write(line)

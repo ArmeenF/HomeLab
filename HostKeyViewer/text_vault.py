@@ -1,6 +1,7 @@
 # pylint: disable=missing-module-docstring
 # pylint: disable=missing-class-docstring
 # pylint: disable=missing-function-docstring
+# pylint: disable=invalid-name
 
 """
 Library/Component: Known Hosts Viewer
@@ -28,45 +29,43 @@ documentation_text = """
     Conclusion
     The Known Hosts Viewer combines ease of use with practical functionality for managing SSH known hosts files. Its current features provide a solid foundation for file viewing, and the planned updates will significantly enhance its capabilities for direct file management. This application is set to become an indispensable tool for anyone looking to streamline their SSH connection management process.
     """
-    
-    
-    
-    
-    # def create_menu(self):
-    #     self.menu_bar = tk.Menu(self.root)
-    #     self.root.config(menu=self.menu_bar)
 
-    #     # File menu
-    #     self.file_menu = tk.Menu(self.menu_bar, tearoff=0)
-    #     self.menu_bar.add_cascade(label="File", menu=self.file_menu)
-    #     # ... your existing file menu items ...
-    #     self.file_menu.add_command(
-    #         label="Open", command=lambda: open_known_hosts(self.tree)
-    #     )
-    #     self.file_menu.add_command(label="Restart", command=lambda: restart_app(self))
-    #     self.file_menu.add_separator()
-    #     self.file_menu.add_command(
-    #         label="About", command=lambda: about_dialog(self.root)
-    #     )
-    #     self.file_menu.add_command(
-    #         label="Documentation", command=lambda: documentation_dialog(self.root)
-    #     )
-    #     self.file_menu.add_separator()
-    #     self.file_menu.add_command(label="Exit", command=self.root.quit)
 
-    #     # Add a 'Tools' or 'Actions' drop-down menu if more buttons will be added later
-    #     # self.tools_menu = tk.Menu(self.menu_bar, tearoff=0)
-    #     # self.menu_bar.add_cascade(label="Tools", menu=self.tools_menu)
-    #     # self.tools_menu.add_command(label="New Button", command=self.new_button_action)
-        
-        
-    #     # Spacer to push the 'New Button' to the right
-    #     filler = tk.Menu(self.menu_bar, tearoff=0)
-    #     self.menu_bar.add_cascade(label='', menu=filler)
-    #     filler.add_command(label='', state='disabled')
+# def create_menu(self):
+#     self.menu_bar = tk.Menu(self.root)
+#     self.root.config(menu=self.menu_bar)
 
-    #     self.menu_bar.add_command(label="New Button", command=self.new_button_action)
+#     # File menu
+#     self.file_menu = tk.Menu(self.menu_bar, tearoff=0)
+#     self.menu_bar.add_cascade(label="File", menu=self.file_menu)
+#     # ... your existing file menu items ...
+#     self.file_menu.add_command(
+#         label="Open", command=lambda: open_known_hosts(self.tree)
+#     )
+#     self.file_menu.add_command(label="Restart", command=lambda: restart_app(self))
+#     self.file_menu.add_separator()
+#     self.file_menu.add_command(
+#         label="About", command=lambda: about_dialog(self.root)
+#     )
+#     self.file_menu.add_command(
+#         label="Documentation", command=lambda: documentation_dialog(self.root)
+#     )
+#     self.file_menu.add_separator()
+#     self.file_menu.add_command(label="Exit", command=self.root.quit)
 
-    # def new_button_action(self):
-    #     # Placeholder for new button's functionality
-    #     print("New Button Clicked!")
+#     # Add a 'Tools' or 'Actions' drop-down menu if more buttons will be added later
+#     # self.tools_menu = tk.Menu(self.menu_bar, tearoff=0)
+#     # self.menu_bar.add_cascade(label="Tools", menu=self.tools_menu)
+#     # self.tools_menu.add_command(label="New Button", command=self.new_button_action)
+
+
+#     # Spacer to push the 'New Button' to the right
+#     filler = tk.Menu(self.menu_bar, tearoff=0)
+#     self.menu_bar.add_cascade(label='', menu=filler)
+#     filler.add_command(label='', state='disabled')
+
+#     self.menu_bar.add_command(label="New Button", command=self.new_button_action)
+
+# def new_button_action(self):
+#     # Placeholder for new button's functionality
+#     print("New Button Clicked!")
